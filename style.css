@@ -10,9 +10,12 @@
 .header{
     display:flex;
     justify-content: space-around;
-    background-color: #6e86a8;
-    color: white;
+    background-color: #1F2937;
+    color: #E5E7EB;
     align-items: center;
+}
+.Logo{
+    font-size: 24px;
 }
 ul{
    display:flex;
@@ -26,31 +29,26 @@ ul{
     width: 1000px;
     height: 200px;
 }
-
 .right, .placeholder{
     display: flex;
     flex-direction: column;
     max-width: auto;
     flex-wrap: wrap;
 }
-
 .placeholder img{
     max-width: 100%;
     max-height:100%
 }
-
 .head{
     font-size: 48px;
     font-weight: bold;
     margin:0;
 }
-
 .web{
     font-size: 18px;
     color: #E5E7EB;
     margin:0;
 }
-
 .signup{
     display:flex;
     justify-content: center;
@@ -65,20 +63,17 @@ ul{
     display: flex;
     flex-direction: column;   
 }
-
 .infohead{
     display: flex;
     justify-content: center;
     font-size: 36px;
     font-weight: #1f2937
 }
-
 .info{
     display:flex;
     justify-content: center;
     padding:16px;
 }
-
 .contain{
     height:300px;
     width:204px;
@@ -91,7 +86,6 @@ ul{
     margin: 0 32px;
     gap: 5px;
 }
-
 .info img{
     border-radius: 25px;
     border: 2px solid #225b75;
@@ -99,4 +93,75 @@ ul{
     height: 200px;
 }
 
+.section3{
+    height: 500px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.quote{
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: flex-start;
+    
+}
+.quote p{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+.quote div{
+    margin-left:auto;
+    font-weight: 700;
+}
+
+.section4{
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    background-color: #3882F6;
+    width:1000px;
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.box button{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    color: white;
+    font-weight: bold;
+}
+
+.call{
+    font-size:20px;
+    font-weight: 700;
+    color: white;
+}
+
+.signuptext{
+    color:white;
+    margin-top: 2px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #33373b;
+    color: white;
+    align-items: center;
+    height:80px;
+}
 
